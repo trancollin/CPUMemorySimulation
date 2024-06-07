@@ -1,0 +1,383 @@
+26   //x register contains -1
+
+//print upper half of U
+1   //load 5 into ac (print 5 rows of vertical lines)
+5
+7   //load counter into index 999
+999
+1   //load "|"
+124
+9   //print "|"
+2
+1   //load 13 into ac (printing space 13 times)
+13
+7   //load counter into index 998
+998
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+998
+10  //decrement counter
+21   //if counter is 0, print "|"
+26
+7   //load decremented counter into index 998
+998    
+20   //jump back to load " "
+13    
+1    //load and print "|"
+124
+9
+2
+1   //load and print new line
+10
+9
+2
+2   //load counter for lines of vertical lines into ac
+999
+10   //decrement counter
+21   //if counter is 0, print 6th row
+43
+7   //load decremented counter into 999
+999
+20   //print another line
+5
+
+//print 6th row of U
+1   //load " "
+32
+9   //print " "
+2
+1   //load "\"
+92
+9   //print "\"
+2
+1   //load 11 into ac (print 11 spaces)
+11
+7   //load counter into index 999
+999
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+999
+10  //decrement counter
+21   //if counter is 0, print "/"
+68
+7   //load decremented counter into index 998
+999    
+20   //jump back to load " "
+55
+1   //load "/"
+47
+9   //print "/"
+2
+1   //load and print new line
+10
+9
+2
+
+//print final row of U
+1   //load " "
+32
+9   //print 1st " "
+2
+9   //print 2nd " "
+2
+9   //print 3rd " "
+2
+1   //load 9 into ac (printing 9 "-")
+9
+7   //load counter into index 999
+999
+1   //load "-"
+45
+9   //print "-"
+2
+2   //load counter for "-" into ac
+999
+10  //decrement counter
+21   //if counter is 0, print newline
+101
+7   //load decremented counter into index 999
+999
+20   //jump back to load "-"
+88
+1   //load new line
+10
+9   //print first new line
+2
+9   //print second new line
+2
+
+//print 1st row of T
+1   //begin print T, load 15 into ac (printing 15 "_")
+15
+7   //load counter into index 999
+999
+1   //load "_"
+95
+9   //print "_"
+2
+2   //load counter for "_" into ac
+999
+10   //decrement counter
+21   //if counter is 0, print new line
+124
+7   //load decremented counter into index 999
+999
+20   //jump back to load "_" 
+111
+1   //load new line
+10
+9   //print new line
+2
+
+//print rows 2 - 7 of T
+1   //load 6 into ac (print 6 rows of vertical lines)
+6
+7   //load counter into index 999
+999
+1   //load 7 into ac (printing space 7 times)
+7
+7   //load counter into index 998
+998
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+998
+10  //decrement counter
+21   //if counter is 0, print "|"
+149
+7   //load decremented counter into index 998
+998    
+20   //jump back to load " "
+136    
+1    //load and print "|"
+124
+9
+2
+1   //load and print new line
+10
+9
+2
+2   //load counter for lines of vertical lines into ac
+999
+10   //decrement counter
+21   //if counter is 0, print newline
+166
+7   //load decremented counter into 999
+999
+20   //print another row
+132
+1   //load new line
+10
+9   //print new line
+2
+
+//print 1st row of D
+1   //start printing D, load " "
+32
+9   //print " "
+2
+1   //load 10 into ac (printing 10 "_")
+10
+7   //load counter into index 999
+999
+1   //load "_"
+95
+9   //print "_"
+2
+2   //load counter for "_" into ac
+999
+10   //decrement counter
+21   //if counter is 0, print new line
+191
+7   //load decremented counter into index 999
+999
+20   //jump back to load "_" 
+178
+1   //load new line
+10
+9   //print new line
+2
+
+//print 2nd row of D
+1   //print 2nd row of D, load "|"
+124
+9   //print "|"
+2
+1   //load 11 into ac (printing space 11 times)
+11
+7   //load counter into index 999
+999
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+999
+10  //decrement counter
+21   //if counter is 0, print "\"
+216
+7   //load decremented counter into index 999
+999    
+20   //jump back to load " "
+203
+1   //load "\"
+92
+9   //print "\"
+2
+1   //load new line
+10
+9   //print new line
+2
+
+//print 3rd row of D
+1   //print 3rd row of D, load "|"
+124
+9   //print "|"
+2
+1   //load 12 into ac (printing space 12 times)
+12
+7   //load counter into index 999
+999
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+999
+10  //decrement counter
+21   //if counter is 0, print "\"
+245
+7   //load decremented counter into index 999
+999    
+20   //jump back to load " "
+232
+1   //load "\"
+92
+9   //print "\"
+2
+1   //load new line
+10
+9   //print new line
+2
+
+//print 4th and 5th rows
+1   //print 4th and 5th rows, load 2 into ac (print 2 rows of vertical lines)
+2
+7   //load counter into index 999
+999
+1   //load "|"
+124
+9   //print "|"
+2
+1   //load 13 into ac (printing space 13 times)
+13
+7   //load counter into index 998
+998
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+998
+10  //decrement counter
+21   //if counter is 0, print "|"
+278
+7   //load decremented counter into index 998
+998    
+20   //jump back to load " "
+265    
+1    //load and print "|"
+124
+9
+2
+1   //load and print new line
+10
+9
+2
+2   //load counter for rows into ac
+999
+10   //decrement counter
+21   //if counter is 0, print last two rows
+295
+7   //load decremented counter into 999
+999
+20   //print another row
+257
+
+//print 5th row
+1   //print 5th row of D, load "|"
+124
+9   //print "|"
+2
+1   //load 12 into ac (printing space 12 times)
+12
+7   //load counter into index 999
+999
+1   //load " "
+32
+9   //print " "
+2
+2   //load counter for spaces into ac
+999
+10  //decrement counter
+21   //if counter is 0, print "/"
+316
+7   //load decremented counter into index 999
+999    
+20   //jump back to load " "
+303
+1   //load "/"
+47
+9   //print "/"
+2
+1   //load new line
+10
+9   //print new line
+2
+
+//print final row of D
+1   //print final row of D, load "|"
+124
+9   //print "|"
+2
+1   //load 10 into ac (printing "|" 10 times)
+10
+7   //load counter into index 999
+999
+1   //load "|"
+95
+9   //print "|"
+2
+2   //load counter for "|" into ac
+999
+10  //decrement counter
+21   //if counter is 0, print " "
+345
+7   //load decremented counter into index 999
+999    
+20   //jump back to load "|"
+332
+1   //load " "
+32
+9   //print " "
+2
+1   //load "/"
+47
+9   //print "/"
+2
+1   //load new line
+10
+9   //print new line
+2
+50   //end
+
+.1000
+30   //just return
